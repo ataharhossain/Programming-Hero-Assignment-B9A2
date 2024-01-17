@@ -305,7 +305,98 @@ flex-wrap: wrap;
    background: rgba(251, 181, 99, 0.05);
 }
 
+/* CSS for section5 */
+.section5{
+    width: 90%;
+    height: 350px;
+    display: flex;
+    border: none;
 
+}
+.sec5-item1{
+    width: 40%;
+    height: 300px;
+    margin: auto auto;
+}
+.sec5-item2{
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%) , url(../Images/Group\ 40089.png);
+    height: 300px;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto auto;
+}
+
+.sec5-item2 > p{
+     width: 200px;
+     height: auto;
+     text-align: center;
+     margin: 0 auto;
+     margin-top: 100px;
+     color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+   font-style: normal;
+   font-weight: 700;
+   
+}
+
+/* CSS for section6 */
+
+.section6{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    border: none;
+
+}
+.sec6-item1{
+    width: 40%;
+    height: 350px;
+    margin: auto auto;
+    border-radius: 16px;
+    border: 2px solid #FF5400;
+}
+.sec6-item1-box1{
+    width: 80%;
+    height:150px;
+    margin: auto auto;
+    padding: 30px;
+    border-bottom: 2px solid rgba(19, 19, 24, 0.10);;
+}
+
+.sec6-item1-box2{
+    width: 70%;
+    height:auto;
+    margin-left: 70px;
+    position: relative;
+    top: 20px;
+    
+    
+}
+
+.sec6-item2{
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%) , url(../Images/Rectangle\ 8\ \(1\).png);
+    height: 300px;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto auto;
+}
+
+/* CSS for section7 */
+.section7{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(71, 9, 240 ,0.2);
+    border: none;
+}
+/* CSS for footer */
 
 /* Responsive for mobile(<600px) */
 
@@ -482,4 +573,56 @@ flex-wrap: wrap;
         margin-bottom: 20px;
         margin-left: 20px;
     }
-}
+
+      /* responsive CSS for section5 */
+      .section5{
+        width: 90vw;
+        height: auto;
+        border: none;
+        display: inline-block;
+      }
+
+      .sec5-item1{
+        width: 90%; 
+        margin-bottom: 20px;
+
+    }
+
+    .sec5-item2{
+        width: 90%; 
+        margin-bottom: 20px;
+
+    }
+    /* responsive CSS for section6 */
+    .section6{
+        width: 90vw;
+        height: auto;
+        border: none;
+        display: inline-block;
+      }
+
+      .sec6-item1{
+        width: 90%; 
+        margin-bottom: 20px;
+
+    }
+
+    .sec6-item2{
+        width: 90%; 
+        margin-bottom: 20px;
+    
+    }
+
+    .sec6-item2-box3{
+        position: relative;
+        left: 60px;
+        bottom: 10px;
+    }
+    /* responsive CSS for section7 */
+    .section6{
+        width: 100vw;
+        height: auto;
+      }
+
+     /* responsive CSS for footer */
+} 
